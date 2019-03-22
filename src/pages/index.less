@@ -1,0 +1,192 @@
+.head{
+    height: 290px;
+}
+.sliderItem{
+    height: 290px;
+    width: 100%;
+    display: inline-block;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+:global{
+    .am-carousel-wrap{
+        height: 40px;
+        .am-carousel-wrap-dot{
+            span{
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+
+}
+
+.contentBox{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+
+    position: relative;
+   
+    .contentIconBox{
+        font-size: 32px;
+        padding: 35px 0;
+        div{
+            font-size: 30px;
+            color:#333;
+            font-weight: 500;
+            margin: 0 auto;
+        }
+        .contentIconImg{
+            width: 90px;
+            height: 90px;
+            margin-bottom: 20px;
+            
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+.pageHead{
+    height: 90px;
+    line-height: 90px;
+    text-align: left;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6F6F6;
+    position: relative;
+    img{
+        height: 34px;
+        vertical-align: middle;
+
+    }
+    .titleBox{
+        position:absolute;
+        top: 0;
+        left: 222px;
+        width: 80px;
+        height: 90px;
+        background: #f6f6f6;
+        z-index: 3;
+    }
+    a{
+        font-size: 22px;
+        color: #999;
+    }
+
+
+}
+.contentList{
+    background-color:#f6f6f6;
+    padding: 0 30px;
+    >a{
+        display: block;
+        background: #fff;
+        margin-bottom: 10px;
+        padding: 30px 50px 30px 30px;
+        position: relative;
+        .productTag{
+            position: absolute;
+            top: 0;
+            right: 50px;
+            width: 105px;
+            img{
+                width: 100%;
+            }
+        }
+        &:last-child{
+            margin-bottom: 0;
+        }
+        .listItem{
+            display: flex;
+            justify-content: space-between;
+            .listItemContent{
+                display: flex;
+            }
+            .listItemImg{
+                width: 120px;
+                height: 120px;
+                img{
+                    width: 100%;
+                    height: auto;
+                    border-radius: 16px;
+                }
+            }
+            .listItemTitle{
+                display: inline-block;
+                margin-left: 30px;
+                text-align: left;
+                h5{
+                    font-size: 30px;
+                    color: #050505;
+                    margin: 0 0 20px 0;
+                    font-weight: normal;
+                }
+                p{
+                    font-size: 26px;
+                    color: #FF5D5D;
+                    margin: 0 0 10px 0;
+                }
+                span{
+                    font-size: 24px;
+                    color: #929292;
+                }
+            }
+            .listItemText{
+                p{
+                    font-size: 22px;
+                    color: #929292;
+                    margin: 46px 0 8px 0; 
+                }
+                span{
+                    font-size: 36px;
+                    color: #616161;
+                    font-size: 500;
+                }
+            }
+        }
+    }
+}
+.IDList{
+    background: #f6f6f6;
+    >a{
+        margin: 0 30px;
+        display: block;
+        background: #fff;
+        margin-bottom: 10px;
+        padding: 35px;
+        >div{
+            display: flex;
+        }
+        .IDListImg{
+            width: 175px;
+            height: 112px;
+            img{
+                width: 100%;
+                height: auto;
+                border-radius: 10px;
+            }
+        }
+        .IDListText{
+            margin-left: 20px;
+            text-align: left;
+            p{
+                font-size: 22px;
+                color: #010101;
+                line-height: 30px;
+                margin: 14px 0 12px 0;
+            }
+            span{
+                font-size: 24px;
+                color: #929292;
+            }
+        }
+    }
+}
